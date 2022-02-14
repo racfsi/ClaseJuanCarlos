@@ -1,0 +1,72 @@
+/** GLOBAL **/
+
+:root {
+    --colorPrimary: #62495b;
+    --colorGreen: #1ee000;
+}
+
+body {
+    background: #ecf0f5;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/** GROUP LETTERS **/
+
+.group-letters {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.group-letters p {
+    color: gray;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.lettOk p {
+    color: green;
+}
+
+.lettFail p {
+    color: red;
+}
+
+
+/** AJAX RESPONSE **/
+
+.responseAjax {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responseAjax p {
+    color: #000;
+    font-weight: 700;
+}
+
+.responseAjax-beforeSend {
+    background: #fce303;
+}
+
+.responseAjax-done {
+    background: #1ee000;
+}
+
+.responseAjax-fail {
+    background: red;
+}
